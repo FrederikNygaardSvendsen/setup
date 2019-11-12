@@ -1,5 +1,7 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/frederiknygaardsvendsen/.oh-my-zsh"
+USER=$(id -un)
+export ZSH="/Users/$USER/.oh-my-zsh"
+
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="minimal"
