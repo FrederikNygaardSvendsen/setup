@@ -23,13 +23,5 @@ autojump
 
 source $ZSH/oh-my-zsh.sh
 
-# Fix for autojump
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 alias tf="terraform"
-
-# Set Paths
-## Homebrew
-export PATH=$PATH:/usr/local/Homebrew/bin
-
