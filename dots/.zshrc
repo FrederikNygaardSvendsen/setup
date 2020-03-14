@@ -4,7 +4,7 @@ export ZSH="/Users/$USER/.oh-my-zsh"
 
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="minimal"
+ZSH_THEME=""
 
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -25,3 +25,16 @@ source $ZSH/oh-my-zsh.sh
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 alias tf="terraform"
+
+# PURE
+autoload -U promptinit; promptinit
+prompt pure
+
+alias start-postgres-server="pg_ctl -D /usr/local/var/postgres start && brew services start postgresql"
+
+# kubectl
+if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
+alias k="kubectl"
+
+# git
+alias gbr="git branch | grep -v "master" | xargs git branch -D"
