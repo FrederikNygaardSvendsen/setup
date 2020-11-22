@@ -38,3 +38,6 @@ alias k="kubectl"
 
 # git
 alias gbr="git branch | grep -v "master" | xargs git branch -D"
+
+# k9s
+export TERM=xterm-256color

@@ -1,35 +1,108 @@
-tap "homebrew/bundle"
-tap "homebrew/cask-drivers"
-tap "homebrew/cask"
-tap "homebrew/core"
-tap "homebrew/services"
-brew "autojump"
-brew "awscli"
-brew "awsebcli"
-brew "jq"
-brew "postgresql"
-brew "terraform"
-brew "unrar"
-brew "zsh"
-cask "1password"
-cask "alacritty"
-cask "battle-net"
-cask "bettertouchtool"
-cask "bitwarden"
-cask "clipy"
-cask "discord"
-cask "dotnet-sdk"
-cask "drawio"
-cask "google-chrome"
-cask "iterm2"
-cask "mono-mdk"
-cask "pgadmin4"
-cask "philips-hue-sync"
-cask "postman"
-cask "sensiblesidebuttons"
-cask "slack"
-cask "spotify"
-cask "steam"
-cask "teamviewer"
-cask "visual-studio-code"
-cask "visual-studio"
+autojump
+aws-elasticbeanstalk
+awscli
+bdw-gc
+c-ares
+cairo
+cfitsio
+coretemp
+dart
+epsilon
+expat
+fontconfig
+freetype
+freexl
+gcc
+gdal
+gdbm
+geos
+gettext
+giflib
+glib
+gmp
+gnutls
+gotop
+guile
+hdf5
+helm
+icu4c
+isl
+jansson
+jasper
+jemalloc
+jpeg
+jq
+json-c
+k9s
+krb5
+kubernetes-cli
+libdap
+libev
+libevent
+libffi
+libgcrypt
+libgeotiff
+libgpg-error
+libidn2
+libmaxminddb
+libmemcached
+libmpc
+libpng
+libpq
+libsmi
+libspatialite
+libssh
+libtasn1
+libtiff
+libtool
+libunistring
+libxml2
+little-cms2
+lua@5.1
+lzo
+memcached
+mongodb-community
+mongodb-database-tools
+mpfr
+ncurses
+netcdf
+nettle
+nghttp2
+node
+node@12
+nspr
+nss
+numpy
+oniguruma
+openblas
+openjpeg
+openssl@1.1
+p11-kit
+pcre
+pixman
+pkg-config
+poppler
+popt
+postgresql
+proj
+python@2
+python@3.8
+python@3.9
+qt
+readline
+sass
+skhd
+sqlite
+szip
+telnet
+terraform
+unbound
+unixodbc
+unrar
+webp
+wireshark
+xerces-c
+xz
+yabai
+zsh
+zstd
