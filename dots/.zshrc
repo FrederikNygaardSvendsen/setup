@@ -19,6 +19,7 @@ copyfile
 docker
 extract
 autojump
+git-auto-fetch
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -41,3 +42,9 @@ alias gbr="git branch | grep -v "master" | xargs git branch -D"
 
 # k9s
 export TERM=xterm-256color
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/frederiknygaardsvendsen/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/frederiknygaardsvendsen/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/frederiknygaardsvendsen/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/frederiknygaardsvendsen/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
